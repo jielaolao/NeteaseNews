@@ -23,9 +23,6 @@
     } failed:^(NSError *error) {
         NSLog(@"%@",error);
     }];
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
