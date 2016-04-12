@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BE31EAAB0D516AB3AC232B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0416DF4A776040FA60A59C8F /* libPods.a */; };
 		8145E1551CBD1FB400C50085 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E1541CBD1FB400C50085 /* main.m */; };
 		8145E1581CBD1FB400C50085 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E1571CBD1FB400C50085 /* AppDelegate.m */; };
-		8145E15B1CBD1FB400C50085 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E15A1CBD1FB400C50085 /* ViewController.m */; };
 		8145E15E1CBD1FB400C50085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8145E15C1CBD1FB400C50085 /* Main.storyboard */; };
 		8145E1611CBD1FB400C50085 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8145E15F1CBD1FB400C50085 /* ____.xcdatamodeld */; };
 		8145E1631CBD1FB400C50085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8145E1621CBD1FB400C50085 /* Assets.xcassets */; };
@@ -23,15 +23,18 @@
 		8145E1841CBD1FF200C50085 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E17E1CBD1FF200C50085 /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		8145E1881CBD216B00C50085 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E1871CBD216B00C50085 /* NetworkTool.m */; settings = {ASSET_TAGS = (); }; };
 		8145E18C1CBD232A00C50085 /* Headline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E18B1CBD232A00C50085 /* Headline.m */; settings = {ASSET_TAGS = (); }; };
+		8145E18F1CBD3E8900C50085 /* HeadlineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E18E1CBD3E8900C50085 /* HeadlineController.m */; settings = {ASSET_TAGS = (); }; };
+		8145E1931CBD3F6600C50085 /* LoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E1921CBD3F6600C50085 /* LoopView.m */; settings = {ASSET_TAGS = (); }; };
+		8145E1961CBD426200C50085 /* LoopViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E1951CBD426200C50085 /* LoopViewFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8145E1991CBD478300C50085 /* LoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8145E1981CBD478300C50085 /* LoopViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0416DF4A776040FA60A59C8F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8145E1501CBD1FB400C50085 /* 网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8145E1541CBD1FB400C50085 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8145E1561CBD1FB400C50085 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8145E1571CBD1FB400C50085 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8145E1591CBD1FB400C50085 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8145E15A1CBD1FB400C50085 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8145E15D1CBD1FB400C50085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8145E1601CBD1FB400C50085 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
 		8145E1621CBD1FB400C50085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +59,16 @@
 		8145E1871CBD216B00C50085 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
 		8145E18A1CBD232A00C50085 /* Headline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headline.h; sourceTree = "<group>"; };
 		8145E18B1CBD232A00C50085 /* Headline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Headline.m; sourceTree = "<group>"; };
+		8145E18D1CBD3E8900C50085 /* HeadlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlineController.h; sourceTree = "<group>"; };
+		8145E18E1CBD3E8900C50085 /* HeadlineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlineController.m; sourceTree = "<group>"; };
+		8145E1911CBD3F6600C50085 /* LoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopView.h; sourceTree = "<group>"; };
+		8145E1921CBD3F6600C50085 /* LoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopView.m; sourceTree = "<group>"; };
+		8145E1941CBD426200C50085 /* LoopViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopViewFlowLayout.h; sourceTree = "<group>"; };
+		8145E1951CBD426200C50085 /* LoopViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopViewFlowLayout.m; sourceTree = "<group>"; };
+		8145E1971CBD478300C50085 /* LoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopViewCell.h; sourceTree = "<group>"; };
+		8145E1981CBD478300C50085 /* LoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopViewCell.m; sourceTree = "<group>"; };
+		939805C2A02BE635659B6F3A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2E9A4BCEFE7D409B9DD832 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +76,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE31EAAB0D516AB3AC232B0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		291FDEA6330F6CEAB68BEDC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0416DF4A776040FA60A59C8F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8145E1471CBD1FB400C50085 = {
 			isa = PBXGroup;
 			children = (
 				8145E1521CBD1FB400C50085 /* 网易新闻 */,
 				8145E1511CBD1FB400C50085 /* Products */,
+				85717526F2DAB84C9EB81ADC /* Pods */,
+				291FDEA6330F6CEAB68BEDC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,14 +112,13 @@
 		8145E1521CBD1FB400C50085 /* 网易新闻 */ = {
 			isa = PBXGroup;
 			children = (
-				8145E1711CBD1FF200C50085 /* AFNetworking */,
-				8145E16D1CBD1FE400C50085 /* Log */,
 				8145E1851CBD211600C50085 /* Tools */,
+				8145E16D1CBD1FE400C50085 /* Log */,
+				8145E1711CBD1FF200C50085 /* AFNetworking */,
+				8145E1901CBD3F4E00C50085 /* LoopView */,
 				8145E1891CBD22B100C50085 /* Headline */,
 				8145E1571CBD1FB400C50085 /* AppDelegate.m */,
 				8145E1561CBD1FB400C50085 /* AppDelegate.h */,
-				8145E1591CBD1FB400C50085 /* ViewController.h */,
-				8145E15A1CBD1FB400C50085 /* ViewController.m */,
 				8145E15C1CBD1FB400C50085 /* Main.storyboard */,
 				8145E1621CBD1FB400C50085 /* Assets.xcassets */,
 				8145E1641CBD1FB400C50085 /* LaunchScreen.storyboard */,
@@ -159,9 +182,33 @@
 			children = (
 				8145E18A1CBD232A00C50085 /* Headline.h */,
 				8145E18B1CBD232A00C50085 /* Headline.m */,
+				8145E18D1CBD3E8900C50085 /* HeadlineController.h */,
+				8145E18E1CBD3E8900C50085 /* HeadlineController.m */,
 			);
 			name = Headline;
 			path = Log;
+			sourceTree = "<group>";
+		};
+		8145E1901CBD3F4E00C50085 /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				8145E1911CBD3F6600C50085 /* LoopView.h */,
+				8145E1921CBD3F6600C50085 /* LoopView.m */,
+				8145E1941CBD426200C50085 /* LoopViewFlowLayout.h */,
+				8145E1951CBD426200C50085 /* LoopViewFlowLayout.m */,
+				8145E1971CBD478300C50085 /* LoopViewCell.h */,
+				8145E1981CBD478300C50085 /* LoopViewCell.m */,
+			);
+			name = LoopView;
+			sourceTree = "<group>";
+		};
+		85717526F2DAB84C9EB81ADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939805C2A02BE635659B6F3A /* Pods.debug.xcconfig */,
+				EB2E9A4BCEFE7D409B9DD832 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8145E16A1CBD1FB400C50085 /* Build configuration list for PBXNativeTarget "网易新闻" */;
 			buildPhases = (
+				F81DB6D37EB3C1F572CADCC3 /* Check Pods Manifest.lock */,
 				8145E14C1CBD1FB400C50085 /* Sources */,
 				8145E14D1CBD1FB400C50085 /* Frameworks */,
 				8145E14E1CBD1FB400C50085 /* Resources */,
+				BC692C8B6198B5D18D429A9B /* Embed Pods Frameworks */,
+				0E8A6EF102E17B5911D2DCB9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,24 +279,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E8A6EF102E17B5911D2DCB9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC692C8B6198B5D18D429A9B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81DB6D37EB3C1F572CADCC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8145E14C1CBD1FB400C50085 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8145E1821CBD1FF200C50085 /* AFURLRequestSerialization.m in Sources */,
-				8145E15B1CBD1FB400C50085 /* ViewController.m in Sources */,
 				8145E1611CBD1FB400C50085 /* ____.xcdatamodeld in Sources */,
 				8145E18C1CBD232A00C50085 /* Headline.m in Sources */,
 				8145E1701CBD1FE400C50085 /* NSObject+Log.m in Sources */,
 				8145E1841CBD1FF200C50085 /* AFURLSessionManager.m in Sources */,
 				8145E1881CBD216B00C50085 /* NetworkTool.m in Sources */,
+				8145E1931CBD3F6600C50085 /* LoopView.m in Sources */,
+				8145E18F1CBD3E8900C50085 /* HeadlineController.m in Sources */,
 				8145E1831CBD1FF200C50085 /* AFURLResponseSerialization.m in Sources */,
 				8145E1801CBD1FF200C50085 /* AFNetworkReachabilityManager.m in Sources */,
 				8145E1811CBD1FF200C50085 /* AFSecurityPolicy.m in Sources */,
 				8145E17F1CBD1FF200C50085 /* AFHTTPSessionManager.m in Sources */,
 				8145E1581CBD1FB400C50085 /* AppDelegate.m in Sources */,
 				8145E1551CBD1FB400C50085 /* main.m in Sources */,
+				8145E1991CBD478300C50085 /* LoopViewCell.m in Sources */,
+				8145E1961CBD426200C50085 /* LoopViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +455,7 @@
 		};
 		8145E16B1CBD1FB400C50085 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939805C2A02BE635659B6F3A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "网易新闻/Info.plist";
@@ -365,6 +467,7 @@
 		};
 		8145E16C1CBD1FB400C50085 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2E9A4BCEFE7D409B9DD832 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "网易新闻/Info.plist";
@@ -393,6 +496,7 @@
 				8145E16C1CBD1FB400C50085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

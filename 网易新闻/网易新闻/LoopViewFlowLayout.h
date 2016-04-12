@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoopViewFlowLayout.h
 //  网易新闻
 //
 //  Created by 杰佬 on 16/4/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LoopViewFlowLayout : UICollectionViewFlowLayout
 
 @end
-
